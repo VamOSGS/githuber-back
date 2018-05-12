@@ -1,9 +1,9 @@
 {
   "parser": "babel-eslint",
   "extends": ["plugin:flowtype/recommended", "airbnb-base"],
-  "plugins": ["flowtype"],
+  "plugins": ["flowtype","prettier"],
   "rules": {
-    "linebreak-style": "off",
+    "linebreak-style": [2, "windows"],
     "require-jsdoc": "off",
     "no-unused-vars": "warn",
     "flowtype/boolean-style": "off",

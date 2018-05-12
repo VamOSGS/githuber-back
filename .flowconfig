@@ -1,8 +1,10 @@
 [ignore]
 <PROJECT_ROOT>/build/.*
+
 [include]
 
 [libs]
+<PROJECT_ROOT>/flow-typed/
 
 [lints]
 

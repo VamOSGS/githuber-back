@@ -13,7 +13,11 @@
     "dotenv": "^5.0.1",
     "koa": "^2.5.0",
     "koa-combine-routers": "^2.0.1",
+    "koa-mount": "^3.0.0",
+    "koa-passport": "^4.0.1",
     "koa-router": "^7.4.0",
+    "koa-session": "^5.8.1",
+    "passport-github": "^1.1.0",
     "source-map-support": "^0.5.3"
   },
   "devDependencies": {
@@ -25,6 +29,9 @@
     "eslint-config-airbnb-base": "^12.1.0",
     "eslint-plugin-flowtype": "^2.46.1",
     "eslint-plugin-import": "^2.9.0",
-    "flow-bin": "^0.66.0"
+    "eslint-plugin-prettier": "^2.6.0",
+    "flow-bin": "^0.66.0",
+    "flow-typed": "^2.3.0",
+    "prettier": "^1.11.1"
   }
 }
